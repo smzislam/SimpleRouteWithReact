@@ -1,3 +1,5 @@
+# It's a simple React website which uses react-router-dom for the navigation between pages and also uses axios for getting data from JSON API.
+
 # Getting Started 
 
 Check that you have reactJs working environment in your pc before using this app
