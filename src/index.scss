@@ -1,0 +1,90 @@
+$colorA: #333333;
+$colorB: rgb(114, 34, 241);
+$colorC: White;
+$colorBLight: rgb(199, 166, 252);
+$colorBDark: rgb(30, 5, 71);
+
+
+$max-width:1280px;
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+* {
+    box-sizing: border-box;
+  }
+  .inner-wrapper{
+    position: relative;
+    width: $max-width;
+    margin: auto; 
+    padding: 0 15px;
+    @media (max-width: 800px) {  
+      width: 100%;
+    }
+  }
+section{
+    width: 100%;
+}
+
+//###### header style ######//
+//#########################//
+header{
+  position: relative;
+  background-color: $colorA;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  height: 80px;
+  display: block;
+  transition: top 0.3s;
+  opacity: 0.9; 
+  z-index: 9; 
+  .flex-container{
+    display: flex;
+    justify-content:space-between;
+    .logo{
+      padding-top: 20px;
+      a{
+        color: $colorC;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+    .navbar{
+        padding-top: 5px;
+        margin-right: -15px;
+      a {
+        float: left;
+        display: block;
+        color: $colorC;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      a:hover {
+        background-color: $colorB;
+        color: $colorC;
+      }
+    }
+  }
+}
+//###### footer style ######//
+//#########################//
+footer{
+    height: auto;
+    width: 100%;
+    padding:15px;
+    background-color: $colorB;
+    p{
+        color: $colorBLight;
+    }
+    a{
+        color: $colorC;
+        &:hover{
+            color: $colorBLight;
+        }
+    }
+}
