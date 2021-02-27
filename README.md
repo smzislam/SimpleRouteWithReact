@@ -1,11 +1,12 @@
 # Getting Started 
-Check that you have reactJs working environment before using this app
+
+Check that you have reactJs working environment in your pc before using this app
 
 Open Git Bash.
 
 Change the current working directory to the location where you want the cloned directory.
 
-Type git clone, and then paste the URL you copied earlier.
+Type git clone, and then paste the URL
 
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
